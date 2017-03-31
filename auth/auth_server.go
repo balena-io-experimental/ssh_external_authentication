@@ -16,7 +16,7 @@ import (
 
 	"net"
 
-	"github.com/afitzek/crypto/ssh"
+	"github.com/resin-io-playground/go-crypto-fork/ssh"
 	jose "gopkg.in/square/go-jose.v2"
 	jwt "gopkg.in/square/go-jose.v2/jwt"
 )

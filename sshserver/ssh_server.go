@@ -18,8 +18,8 @@ import (
 
 	"os"
 
-	"github.com/afitzek/crypto/ssh"
 	"github.com/kr/pty"
+	"github.com/resin-io-playground/go-crypto-fork/ssh"
 )
 
 func dummyAuthKeyHandler() func(ssh.ConnMetadata, ssh.PublicKey) (*ssh.Permissions, error) {
